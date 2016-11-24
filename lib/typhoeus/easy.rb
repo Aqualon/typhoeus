@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Typhoeus
   class Easy
     attr_reader :response_body, :response_header, :method, :headers, :url, :params, :curl_return_code

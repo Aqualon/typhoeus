@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Typhoeus
   class RemoteMethod
     attr_accessor :http_method, :options, :base_uri, :path, :on_success, :on_failure, :cache_ttl

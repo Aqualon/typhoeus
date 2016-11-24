@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Typhoeus
   class Multi
     attr_reader :easy_handles

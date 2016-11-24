@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'typhoeus/hydra/callbacks'
 require 'typhoeus/hydra/connect_options'
 require 'typhoeus/hydra/stubbing'

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Typhoeus
   class HydraMock
     attr_reader :url, :method, :requests, :uri

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'uri'
 
 module Typhoeus
@@ -172,7 +173,7 @@ module Typhoeus
     end
 
     def inspect
-      result = ":method => #{self.method.inspect},\n" <<
+      result = String.new(":method => #{self.method.inspect},\n") <<
                "\t:url => #{URI.parse(self.url).to_s}"
       if self.body and !self.body.empty?
         result << ",\n\t:body => #{self.body.inspect}"

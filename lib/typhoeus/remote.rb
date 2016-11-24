@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Typhoeus
   USER_AGENT = "Typhoeus - http://github.com/dbalatero/typhoeus/tree/master"
   

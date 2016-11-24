@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Typhoeus
   class RemoteProxyObject
     instance_methods.each { |m| undef_method m unless m =~ /^__|object_id/ }
